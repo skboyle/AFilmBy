@@ -6,7 +6,7 @@
 
 @import '../partials/layout'; // responsive grid and media queries
 
-/* -------------------------------- 
+/* --------------------------------
 
 Primary style
 
@@ -47,9 +47,9 @@ img {
 	overflow: hidden;
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Main Components 
+Main Components
 
 -------------------------------- */
 
@@ -88,7 +88,7 @@ Main Components
 		visibility: hidden;
 	}
 
-	.featured-image, 
+	.featured-image,
 	.mask {
 		/* Force hardware acceleration */
 		transform: translateZ(0);
@@ -121,7 +121,7 @@ Main Components
 			position: absolute;
 		}
 
-		.mask-border-top, 
+		.mask-border-top,
 		.mask-border-bottom {
 			/* this is used to create a frame around the mask */
 			height: calc(50vh - 150px + 10px);
@@ -137,7 +137,7 @@ Main Components
 			top: calc(100% - 10px);
 		}
 
-		.mask-border-left, 
+		.mask-border-left,
 		.mask-border-right {
 			/* this is used to create a frame around the mask */
 			height: 100vh;
@@ -154,7 +154,7 @@ Main Components
 		}
 	}
 
-	.project-trigger, 
+	.project-trigger,
 	.project-close {
 		position: absolute;
 		z-index: 3;
@@ -419,6 +419,18 @@ Main Components
 	}
 }
 
+.cd-project-mask.project-6 {
+	background-color: $color-6;
+
+	.mask-border {
+		background-color: $color-6;
+	}
+
+	.featured-image {
+		background-image: url();
+	}
+}
+
 .cd-scroll {
 	/* scroll down arrow */
 	position: fixed;
@@ -444,7 +456,7 @@ Main Components
 	.scrolling & {
 		opacity: 0;
 		visibility: hidden;
-	} 
+	}
 }
 
 .cd-project-info {
@@ -508,9 +520,9 @@ Main Components
 	}
 }
 
-/* -------------------------------- 
+/* --------------------------------
 
-Keyframes 
+Keyframes
 
 -------------------------------- */
 

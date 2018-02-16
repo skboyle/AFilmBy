@@ -458,6 +458,18 @@ Main Components
   background-image: url(../img/img-05.jpg);
 }
 
+.cd-project-mask.project-6 {
+  background-color: #D4D4D4;
+}
+
+.cd-project-mask.project-6 .mask-border {
+  background-color: #D4D4D4;
+}
+
+.cd-project-mask.project-6 .featured-image {
+  background-image: url(../img/img-06.jpg);
+}
+
 .cd-scroll {
   /* scroll down arrow */
   position: fixed;
