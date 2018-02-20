@@ -182,8 +182,8 @@ Main Components
 
 .cd-project-mask .project-trigger {
   bottom: 10%;
-  color: #0f293d;
-  font-family: "Lora", serif;
+  color: white;
+  font-family: "Roboto"
   font-style: italic;
   font-weight: bold;
   text-decoration: underline;
@@ -403,19 +403,19 @@ Main Components
 }
 
 .cd-project-mask.project-1 {
-  background-color: #B8E3D4;
+  background-color: black;
 }
 
 .cd-project-mask.project-1 .mask-border {
-  background-color: #B8E3D4;
+  background-color: black;
 }
 
 .cd-project-mask.project-2 {
-  background-color: #FED1C2;
+  background-color: black;
 }
 
 .cd-project-mask.project-2 .mask-border {
-  background-color: #FED1C2;
+  background-color: black;
 }
 
 .cd-project-mask.project-2 .featured-image {
@@ -423,11 +423,11 @@ Main Components
 }
 
 .cd-project-mask.project-3 {
-  background-color: #A9CCBE;
+  background-color: black;
 }
 
 .cd-project-mask.project-3 .mask-border {
-  background-color: #A9CCBE;
+  background-color: black;
 }
 
 .cd-project-mask.project-3 .featured-image {
@@ -435,11 +435,11 @@ Main Components
 }
 
 .cd-project-mask.project-4 {
-  background-color: #EBBFA4;
+  background-color: black;
 }
 
 .cd-project-mask.project-4 .mask-border {
-  background-color: #EBBFA4;
+  background-color: black;
 }
 
 .cd-project-mask.project-4 .featured-image {
@@ -447,11 +447,11 @@ Main Components
 }
 
 .cd-project-mask.project-5 {
-  background-color: #EFF2D8;
+  background-color: black;
 }
 
 .cd-project-mask.project-5 .mask-border {
-  background-color: #EFF2D8;
+  background-color: black;
 }
 
 .cd-project-mask.project-5 .featured-image {
@@ -459,11 +459,11 @@ Main Components
 }
 
 .cd-project-mask.project-6 {
-  background-color: #D4D4D4;
+  background-color: black;
 }
 
 .cd-project-mask.project-6 .mask-border {
-  background-color: #D4D4D4;
+  background-color: black;
 }
 
 .cd-project-mask.project-6 .featured-image {
@@ -596,7 +596,7 @@ Keyframes
 .amanda-kramer {
   position: absolute !important;
   color: black;
-  font-family: "Lora", serif;
+  font-family: "Roboto"
   font-size: 20px !important;
 }
 iframe {
@@ -606,4 +606,12 @@ iframe {
 
 .portimg img{
   width: 100%
+}
+
+.contactinfo {
+  color: black;
+}
+
+.contactinfo a {
+  color: black;
 }
